@@ -1,0 +1,15 @@
+.header > h2,
+.header > h5 {
+ margin: 0; 
+}
+
+.header > h2 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.header > h5 {
+  margin: 5px 0;
+  font-weight: normal;
+  color: #595959;
+}
