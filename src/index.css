@@ -4,3 +4,7 @@ body {
   background-color: #e6e6e6;
 }
 
+/* 更改不需要的antd自帶樣式 */
+.ant-result-extra {
+  text-align: left;
+}

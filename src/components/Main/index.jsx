@@ -2,11 +2,10 @@ import React, { useState } from 'react'
 import { Result } from 'antd'
 import Progress from '../Progress';
 import MyForm from '../MyForm';
-import Loading from '../Loading'
 import Displayer from '../Displayer';
 import './index.css';
 
-const Main = ({isSubmited, setIsSubmited}) => {
+const Main = () => {
 
   // 進度條狀態
   const [status, setStatus] = useState(0)
@@ -40,9 +39,7 @@ const Main = ({isSubmited, setIsSubmited}) => {
             <Displayer data={data} key='displayer' />
           ]}
         /> :
-        isSubmited === false ?
-        <MyForm infoHandler={infoHandler} setStatus={setStatus} setIsSubmited={setIsSubmited} /> :
-        <Loading />
+        <MyForm infoHandler={infoHandler} setStatus={setStatus} />
       }
     </div>
   )

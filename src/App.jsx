@@ -1,8 +1,10 @@
-import { useState } from 'react';
+import { createContext, useState } from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
 import './App.css'
+
+export const SubmitContext = createContext()
 
 function App() {
   // 管理是否已經提交表單的狀態
@@ -11,7 +13,9 @@ function App() {
   return (
     <div className="app">
       <Header />
-      <Main isSubmited={isSubmited} setIsSubmited={setIsSubmited} />
+      <SubmitContext.Provider value={{isSubmited, setIsSubmited}}>
+        <Main />
+      </SubmitContext.Provider>
       { isSubmited ? "" : <Footer /> }
     </div>
   );
