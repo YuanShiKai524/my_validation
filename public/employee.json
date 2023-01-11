@@ -1,0 +1,91 @@
+{
+
+  "type": 1,
+
+  "startTime": 1672107889189,
+
+  "endTime": 1672107889189,
+
+  "credentialTemplate": {
+
+    "credentialDefinition": {
+
+      "auto_send": true,
+
+      "cred_def_id": "E4BDfu4km5x7ni8P8gzbn2:3:CL:321:員工門禁",
+
+      "format": [
+
+        {
+
+          "schemaId": "63aa53b241f1ba07e4b8b1db",
+
+          "key": "姓名",
+
+          "type": 0,
+
+          "user_write": true
+
+        },
+
+        {
+
+          "schemaId": "63aa53b241f1ba07e4b8b1db",
+
+          "key": "身份證字號",
+
+          "type": 0,
+
+          "user_write": true
+
+        },
+
+        {
+
+          "schemaId": "63aa53b241f1ba07e4b8b1db",
+
+          "key": "部門",
+
+          "type": 0,
+
+          "user_write": false,
+
+          "value": "工程部"
+
+        },
+
+        {
+
+          "schemaId": "63aa53b241f1ba07e4b8b1db",
+
+          "key": "員工ID",
+
+          "type": 0,
+
+          "user_write": false,
+
+          "value": "JKF0001"
+
+        },
+
+        {
+
+          "schemaId": "63aa53b241f1ba07e4b8b1db",
+
+          "key": "職位",
+
+          "type": 0,
+
+          "user_write": true
+
+        }
+
+      ]
+
+    }
+
+  },
+
+  "credential": "63bba7ce41f1ba07e4b92a67"
+
+}

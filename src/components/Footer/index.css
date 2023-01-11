@@ -8,3 +8,8 @@
   padding: 15px 30px;
   padding-left: 60px;
 }
+
+.footer > h2,
+.footer > h4 {
+  font-weight: bold;
+}
