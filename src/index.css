@@ -5,6 +5,10 @@ body {
 }
 
 /* 更改不需要的antd自帶樣式 */
+.ant-result {
+  padding-bottom: 10px
+}
+
 .ant-result-extra {
   text-align: left;
 }
