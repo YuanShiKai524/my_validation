@@ -14,7 +14,7 @@ const MyForm = ({ infoHandler, setStatus }) => {
     setStatus(1)
     setIsSubmited(true)
     // 用fetchAPI獲取資料，並呼叫infoHandler函數
-    const result = await fetch("/api/data.json")
+    const result = await fetch("/my_validation/api/data.json")
     const data = await result.json()
     infoHandler(formData, data)
   }
